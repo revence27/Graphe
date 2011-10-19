@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.files   = ['lib/graphe.rb', 'lib/template.html']
   s.add_dependency 'hpricot'
   s.add_dependency 'pagina'
-  s.files = ['lib/template.html']
-  s.requirements 'pagina can be got from https://github.com/revence27/pagina'
+  s.files   = ['lib/template.html']
+  s.author  = 'Revence Kalibwani'
+  s.requirements << 'pagina can be got from https://github.com/revence27/pagina'
 end
