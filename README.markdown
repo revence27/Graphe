@@ -9,6 +9,6 @@ The effective code is the file `graphe.rb` which requires a HTML template file. 
 
 To generate the Bible:
 
-  ruby graphe.rb template.html destinationdir bible.xml
+    ruby graphe.rb template.html destinationdir bible.xml
 
 And then it runs; after a while, processing that XML file, you have a static HTML Bible in the location you chose (`destinationdir`), which need not exist beforehand.
